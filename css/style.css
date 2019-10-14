@@ -685,7 +685,7 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav .ticket {
   background: #524ef2;
   display: block;
-  padding: 5px 3px;
+  padding: 20px 3px;
   margin: 0 5px 0 0;
 }
 

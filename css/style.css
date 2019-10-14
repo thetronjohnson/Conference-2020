@@ -549,13 +549,13 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .main-nav .navbar-brand {
-  padding: 35px 40px 35px 50px;
+  padding: 10px 10px 10px 10px;
   border-right: 1px solid #e5e5e5;
 }
 
 @media (max-width: 1024px) {
   .main-nav .navbar-brand {
-    padding: 20px 30px;
+    padding: 5px 10px;
   }
 }
 

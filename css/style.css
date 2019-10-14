@@ -685,17 +685,21 @@ select.form-control:not([size]):not([multiple]) {
 .main-nav .ticket {
   background: #524ef2;
   display: block;
-  padding: 34px 32px;
+  padding: 5px 3px;
+  margin: 0 5px 0 0;
 }
 
 @media (max-width: 1024px) {
   .main-nav .ticket {
-    padding: 23px 14px;
+    /* padding: 23px 14px; */
+    margin: 0;
   }
 }
 
 .main-nav .ticket img {
-  margin-right: 25px;
+  margin-right: 0;
+  padding: 3px;
+  text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -710,12 +714,12 @@ select.form-control:not([size]):not([multiple]) {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   border-left: 1px solid #ffa366;
-  padding-left: 24px;
+  padding:0 32px;
 }
 
 @media (max-width: 1024px) {
   .main-nav .ticket span {
-    padding-left: 0;
+    padding: 0 0;
     font-size: 1rem;
     border-left: none;
   }

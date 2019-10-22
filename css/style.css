@@ -89,8 +89,9 @@ ul.social-links li a i {
 
 .overlay:after {
   content: '';
-  background: -webkit-linear-gradient(-45deg, #1e5799 0%, #1d1546 0%, #1a0b25 100%, #207cca 100%);
-  opacity: .25;
+  /* background: -webkit-linear-gradient(-45deg, #1e5799 0%, #1d1546 0%, #1a0b25 100%, #207cca 100%); */
+  background: rgba(0,0,0,0.6);
+  z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
@@ -198,10 +199,12 @@ button:hover {
 }
 
 .bg-banner-one {
-  background: url(../images/background/homepage-one-banner.jpg) no-repeat;
+  background: url(../images/background/mace_front.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+  opacity: 1;
 }
+
 
 .bg-banner-two {
   background: url(../images/background/banner-bg-two.jpg) no-repeat;

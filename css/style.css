@@ -1039,6 +1039,13 @@ select.form-control:not([size]):not([multiple]) {
 .about .image-block {
   padding: 30px;
 }
+/* About mace page */
+.about-mace .image-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .about .image-block img {
   border-radius: 100%;

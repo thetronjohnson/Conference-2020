@@ -811,7 +811,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .subfooter {
-  background: #2a2a37;
+  background: #3273DC;
   padding: 18px 0;
 }
 
@@ -834,13 +834,13 @@ select.form-control:not([size]):not([multiple]) {
   height: 45px;
   width: 45px;
   text-align: center;
-  background: #3273DC;
+  background: white;
   float: right;
 }
 
 .subfooter .to-top i {
   font-size: 1.5rem;
-  color: #fff;
+  color: #3273DC;
   line-height: 45px;
 }
 
@@ -3466,3 +3466,6 @@ ul.pagination .active a {
 
 
 /*# sourceMappingURL=maps/style.css.map */
+.btn-block{
+  display: block;
+}

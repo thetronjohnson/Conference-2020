@@ -984,7 +984,14 @@ select.form-control:not([size]):not([multiple]) {
 
 @media (max-width: 767px) {
   .banner .block h1 {
-    font-size: 80px;
+    /* font-size: 50px; */
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner .block h1 {
+    font-size: 30px;
   }
 }
 
@@ -1002,12 +1009,18 @@ select.form-control:not([size]):not([multiple]) {
     font-size: 3.2rem;
   }
 }
+@media (max-width: 480px) {
+  .banner .block h2 {
+    font-size: 26px;
+  }
+}
 
 .banner .block h6 {
   color: #fff;
   font-weight: 400;
   margin-bottom: 50px;
 }
+
 
 .banner-two {
   padding: 250px 0 150px;
@@ -1046,6 +1059,14 @@ select.form-control:not([size]):not([multiple]) {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 767px){
+  .about .content-block h2{
+    font-size: 25px;
+  }
+}
+
+
 
 
 .about .image-block img {
@@ -2081,6 +2102,15 @@ select.form-control:not([size]):not([multiple]) {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
+/* ABOUT - PAPER SUBMISSIONS */
+@media (max-width : 700px){
+  .about.paper-submissions h2{
+    font-size: 25px;
+  }
+}
+/* ABOUT - PAPER SUBMISSIONS ENDS */
+
 
 .map {
   position: relative;

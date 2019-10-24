@@ -2120,6 +2120,9 @@ select.form-control:not([size]):not([multiple]) {
 
 .map {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .map #map {
@@ -2128,10 +2131,10 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .map .address-block {
-  position: absolute;
+  /* position: absolute; */
   padding: 45px 50px 50px 50px;
-  top: 80px;
-  left: 10%;
+  /* top: 80px;
+  left: 10%; */
   background: #3273DC;
 }
 

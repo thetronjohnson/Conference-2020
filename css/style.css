@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Roboto:300,400,500,700");
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -3275,9 +3276,22 @@ ul.pagination .active a {
 }
 
 .news-hr .news-post-hr {
+  margin: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
+}
+
+@media(max-width: 767px)
+{
+  .news-hr .news-post-hr {
+    margin: 0.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .news-hr .news-post-hr .post-thumb {

@@ -3276,9 +3276,11 @@ ul.pagination .active a {
 }
 
 .news-hr .news-post-hr {
+  margin: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
 }
 
 .news-hr .news-post-hr .post-thumb {

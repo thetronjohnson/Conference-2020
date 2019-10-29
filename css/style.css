@@ -3541,3 +3541,8 @@ ul.pagination .active a {
 .btn-block{
   display: block;
 }
+
+.quote{
+  color:#3273DC;
+  font-size:35px;
+}

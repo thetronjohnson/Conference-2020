@@ -1112,6 +1112,8 @@ select.form-control:not([size]):not([multiple]) {
 
 .about .content-block {
   margin-left: 15px;
+  margin-top: 3rem;
+  /* margin top so that about heading don't get buried under navbar */
 }
 
 @media (max-width: 767px) {

@@ -702,8 +702,8 @@ select.form-control:not([size]):not([multiple]) {
 }
 @media (max-width: 767px) {
   .main-nav .ticket {
-    padding: 14px 6px;
-    margin: 6px;
+    padding: 10px 6px;
+    margin: 10px;
     text-align: center;
   }
 
@@ -736,7 +736,7 @@ select.form-control:not([size]):not([multiple]) {
 @media (max-width: 1024px) {
   .main-nav .ticket span {
     padding: 0 0;
-    font-size: 1rem;
+    font-size: 0.8rem;
     border-left: none;
   }
 }
@@ -1112,6 +1112,8 @@ select.form-control:not([size]):not([multiple]) {
 
 .about .content-block {
   margin-left: 15px;
+  margin-top: 3rem;
+  /* margin top so that about heading don't get buried under navbar */
 }
 
 @media (max-width: 767px) {

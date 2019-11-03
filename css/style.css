@@ -1130,7 +1130,6 @@ select.form-control:not([size]):not([multiple]) {
   content: "";
   width: 60px;
   height: 3px;
-  background: #3273DC;
   display: block;
   margin-top: 10px;
 }
@@ -3557,7 +3556,7 @@ ul.pagination .active a {
 
 .quote{
   color:#3273DC;
-  font-size:35px;
+  font-size:25px;
 }
 .align-center{
   text-align: center;

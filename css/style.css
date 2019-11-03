@@ -275,7 +275,7 @@ button:hover {
 }
 
 .section {
-  padding: 90px 0;
+  padding: 30px 0;
 }
 
 .border-less {
@@ -283,9 +283,9 @@ button:hover {
 }
 
 .section-title {
-  margin-top: 25px;
+  margin-top: 20px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .section-title h3 {
@@ -3404,7 +3404,7 @@ ul.pagination .active a {
 }
 
 .about {
-  padding: 50px 0;
+  padding: 10px 0;
 }
 
 .testimonial .testimonial-item {

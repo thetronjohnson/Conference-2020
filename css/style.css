@@ -1019,7 +1019,7 @@ select.form-control:not([size]):not([multiple]) {
   color: #fff;
   font-weight: 400;
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
-
+  
 }
 
 @media (max-width: 767px) {

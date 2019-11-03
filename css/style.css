@@ -291,7 +291,10 @@ button:hover {
 .section-title h3 {
   margin-bottom: 20px;
 }
-
+.white{
+  color:#ffffff;
+  text-align: center;
+}
 .section-title.white h3, .section-title.white p {
   color: #fff;
 }

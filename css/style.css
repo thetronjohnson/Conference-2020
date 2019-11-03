@@ -294,6 +294,7 @@ button:hover {
 .white{
   color:#ffffff;
   text-align: center;
+  padding-top:80px;
 }
 .section-title.white h3, .section-title.white p {
   color: #fff;

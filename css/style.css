@@ -3543,6 +3543,13 @@ ul.pagination .active a {
   color: #3273DC;
 }
 
+.submissions .card a{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+
 .contact-form .form-control {
   margin-bottom: 30px;
 }

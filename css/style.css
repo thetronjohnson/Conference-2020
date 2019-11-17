@@ -868,6 +868,18 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
+
+.partnership-logo{
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.partnership-logo img{
+  height: 3.2em;
+}
+
 .cta-ticket {
   position: relative;
 }
@@ -992,7 +1004,8 @@ select.form-control:not([size]):not([multiple]) {
 .banner .block h1 {
   text-transform: uppercase;
   font-size: 80px;
-  color: #3273DC;
+  color: white;
+  text-align: center;
   font-weight: 500;
   margin-bottom: 5px;
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
@@ -1005,6 +1018,7 @@ select.form-control:not([size]):not([multiple]) {
   }
   .banner .block h3{
     font-size: 25px;
+    text-align: center;
   }
 }
 
@@ -1014,14 +1028,15 @@ select.form-control:not([size]):not([multiple]) {
   }
   .banner .block h3 {
     font-size: 15px;
+    text-align: center;
   }
 }
 
 .banner .block h2 {
-  text-transform: uppercase;
-  font-size: 4.625rem;
+  font-size: 45px;
   color: #fff;
   font-weight: 400;
+  text-align: center;
   text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
   
 }
@@ -1040,6 +1055,7 @@ select.form-control:not([size]):not([multiple]) {
 .banner .block h6 {
   color: #fff;
   font-weight: 400;
+  text-align: center;
   margin-bottom: 50px;
 }
 

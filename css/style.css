@@ -872,12 +872,15 @@ select.form-control:not([size]):not([multiple]) {
 .partnership-logo{
   text-align: center;
   color: white;
-  text-transform: capitalize;
-  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .partnership-logo img{
-  height: 3.2em;
+  height: 5em;
+  width: auto;
 }
 
 .cta-ticket {

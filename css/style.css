@@ -872,12 +872,15 @@ select.form-control:not([size]):not([multiple]) {
 .partnership-logo{
   text-align: center;
   color: white;
-  text-transform: capitalize;
-  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .partnership-logo img{
-  height: 3.2em;
+  height: 5em;
+  width: auto;
 }
 
 .cta-ticket {
@@ -1024,7 +1027,7 @@ select.form-control:not([size]):not([multiple]) {
 
 @media (max-width: 480px) {
   .banner .block h1 {
-    font-size: 30px;
+    font-size: 39px;
   }
   .banner .block h3 {
     font-size: 15px;
@@ -1041,14 +1044,19 @@ select.form-control:not([size]):not([multiple]) {
   
 }
 
+@media (max-width: 1024px) {
+  .banner .block h2 {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 767px) {
   .banner .block h2 {
-    font-size: 3.2rem;
+    font-size: 1rem;
   }
 }
 @media (max-width: 480px) {
   .banner .block h2 {
-    font-size: 26px;
+    font-size: 13px;
   }
 }
 

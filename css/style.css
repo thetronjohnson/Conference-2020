@@ -868,6 +868,18 @@ select.form-control:not([size]):not([multiple]) {
   }
 }
 
+
+.partnership-logo{
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.partnership-logo img{
+  height: 3.2em;
+}
+
 .cta-ticket {
   position: relative;
 }

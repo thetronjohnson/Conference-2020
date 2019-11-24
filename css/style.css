@@ -582,10 +582,17 @@ select.form-control:not([size]):not([multiple]) {
   position: relative;
   text-align: center;
   color: #222222;
-  padding-left: 8px;
-  padding-right: 20px;
+  /* padding-left: 8px;
+  padding-right: 20px; */
+  padding: 1.4rem;
   font-size: 1.06rem;
   font-family: "Montserrat", sans-serif;
+  transition: 0.3s;
+}
+
+.main-nav .navbar-nav .nav-item :hover {
+  background-color: #3273DC;
+  color: #fff;
 }
 
 @media (max-width: 1024px) {

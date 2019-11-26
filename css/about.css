@@ -13,3 +13,23 @@
 .banner .about-mace .description-one p{
     color: white;
 }
+.mace{
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+.desc{
+  font-size: 22px !important;
+  line-height: normal;
+  text-align: justify;
+}
+.logo{
+  width:70%;
+  align-items: center;
+}
+.footer{
+  position: relative;
+  margin-top:4vw;
+  padding-top: 2vw;
+
+}

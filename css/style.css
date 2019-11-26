@@ -1192,11 +1192,13 @@ select.form-control:not([size]):not([multiple]) {
 
 .about .content-block .description-one {
   margin-bottom: 20px;
+  text-align: justify;
 }
 
 .about .content-block .description-one p {
   color: #222222;
   font-size: 1.0625rem;
+  text-align: justify;
 }
 
 .about .content-block .description-two {
@@ -3627,7 +3629,11 @@ ul.pagination .active a {
 }
 
 .head-desc{
-  font-weight: 200;
+  font-size: 17px;
+  text-align: justify;
+  font-weight: normal;
+  font-family: Roboto;
+  line-height: 1.5;
 }
 .date{
   background-color: #3273DC;

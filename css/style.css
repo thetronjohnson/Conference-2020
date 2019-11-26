@@ -53,6 +53,67 @@ p, a, li, blockquote, label {
   margin-bottom: 0;
 }
 
+
+/* LOGO banner */
+
+.logo-banner{
+  /* background-color: grey; */
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 0.5fr 3fr 3fr 0.5fr 3fr 3fr 1fr;
+  align-items: center;
+  
+}
+
+.brand-icmace{
+  grid-column: 2/3;
+  justify-self: end;
+}
+.brand-icmace h3{
+
+}
+.brand-logo-icmace{
+  grid-column: 3/4;
+  justify-self: center;
+  
+}
+.brand-logo-icmace img{
+  height: 75px;
+}
+.brand-mace{
+  grid-column: 5/6;
+  justify-self: end;
+}
+.brand-mace h3{
+
+}
+.brand-logo-mace{
+  grid-column: 6/7;
+  justify-self: center;
+  
+}
+.brand-logo-mace img{
+  height: 75px;
+}
+.brand-iei{
+  grid-column: 8/9;
+  justify-self: end;
+}
+.brand-iei h3{
+
+}
+.brand-logo-iei{
+  grid-column: 9/10;
+  justify-self: center;
+  
+}
+.brand-logo-iei img{
+  height: 75px;
+}
+
+/* LOGO banner ENDS */
+
+
 .form-control::-webkit-input-placeholder {
   color: #b3b3b3;
   font-size: 0.9375rem;
@@ -560,6 +621,9 @@ select.form-control:not([size]):not([multiple]) {
 
 .main-nav {
   background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1050;
 }
 
 .main-nav .navbar-brand {

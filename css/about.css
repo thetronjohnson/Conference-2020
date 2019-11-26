@@ -1,0 +1,15 @@
+.overlay{
+    z-index: 1;
+}
+
+.banner .about-mace{
+    z-index: 999;
+}
+
+.banner .about-mace h2{
+    color: whitesmoke;
+}
+
+.banner .about-mace .description-one p{
+    color: white;
+}

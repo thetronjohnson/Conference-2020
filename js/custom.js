@@ -45,10 +45,10 @@
         // -----------------------------
         // To Top Init
         // -----------------------------
-        $('.to-top').click(function() {
-          $('html, body').animate({ scrollTop: 0 }, 'slow');
-          return false;
-        });
+        // $('.to-top').click(function() {
+        //   $('html, body').animate({ scrollTop: 0 }, 'slow');
+        //   return false;
+        // });
         
         // -----------------------------
         // Magnific Popup

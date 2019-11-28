@@ -859,7 +859,7 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 1.125rem;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  border-left: 1px solid #ffa366;
+  /* border-left: 1px solid #ffa366; */
   padding:0 32px;
 }
 
@@ -1372,6 +1372,11 @@ select.form-control:not([size]):not([multiple]) {
   background: #3273DC;
   opacity: .85;
   transition: .3s ease;
+}
+
+.speaker-item img{
+  width: 256px;
+  height: 270px;
 }
 
 .speakers .speaker-item .image .socials {

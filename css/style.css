@@ -669,7 +669,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .main-nav {
-  background: #ddd5d0;
+  background: #f8f8f8;
   position: sticky;
   top: 0;
   z-index: 1050;

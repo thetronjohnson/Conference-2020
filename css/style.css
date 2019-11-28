@@ -85,6 +85,7 @@ p, a, li, blockquote, label {
 }
 .brand-logo-icmace img{
   height: 75px;
+  justify-self: center;
 }
 .brand-mace{
   grid-column: 5/6;
@@ -115,6 +116,39 @@ p, a, li, blockquote, label {
 }
 .brand-logo-iei img{
   height: 75px;
+}
+
+
+@media(max-width:767px){
+  .logo-banner{
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+  }
+  .logo-banner .brand-icmace{
+    display: none;
+  }  
+  .logo-banner .brand-mace{
+    display: none;
+  }
+  .logo-banner .brand-iei{
+    display: none;
+  }
+  .brand-logo-icmace{
+    grid-column: 2/3;
+  }  
+  .brand-logo-mace{
+    grid-column: 3/4;
+  }  
+  .brand-logo-iei{
+    grid-column: 4/5;
+  }
+
+
+}
+
+@media(max-width: 1024px){
+  .logo-banner .brand-item h3{
+    font-size: 1rem;
+  }
 }
 
 /* LOGO banner ENDS */
@@ -959,6 +993,10 @@ select.form-control:not([size]):not([multiple]) {
   flex-direction: column;
   align-items: center;
 
+}
+
+.partnership-logo span{
+  
 }
 
 .partnership-logo img{

@@ -961,6 +961,10 @@ select.form-control:not([size]):not([multiple]) {
 
 }
 
+.partnership-logo span{
+  
+}
+
 .partnership-logo img{
   height: 5em;
   width: auto;

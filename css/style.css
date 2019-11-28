@@ -1374,6 +1374,11 @@ select.form-control:not([size]):not([multiple]) {
   transition: .3s ease;
 }
 
+.speaker-item img{
+  width: 256px;
+  height: 270px;
+}
+
 .speakers .speaker-item .image .socials {
   position: absolute;
   top: 100%;

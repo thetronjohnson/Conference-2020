@@ -859,7 +859,7 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 1.125rem;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
-  border-left: 1px solid #ffa366;
+  /* border-left: 1px solid #ffa366; */
   padding:0 32px;
 }
 

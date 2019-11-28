@@ -62,7 +62,13 @@ p, a, li, blockquote, label {
   display: grid;
   grid-template-columns: 1fr 3fr 3fr 0.5fr 3fr 3fr 0.5fr 3fr 3fr 1fr;
   align-items: center;
+  background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  color: white;
   
+}
+
+.logo-banner h3{
+  color: white;
 }
 
 .brand-icmace{

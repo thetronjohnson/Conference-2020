@@ -1454,6 +1454,21 @@ select.form-control:not([size]):not([multiple]) {
   margin-bottom: 0;
 }
 
+/* To adjust the font size in organisers */
+.organising-commitee .speaker-item .content h5  {
+  font-size: 16px;
+  color: #222222;
+  /* font-weight: 400; */
+  margin-bottom: 0;
+}
+.organising-commitee .speaker-item .content h4 a{
+  font-size: 18px;
+  color: #222222;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+/* To adjust the font size in organisers ENDS */
+
 .speakers .speaker-item .content h5 a:hover {
   color: #3273DC;
 }

@@ -6,6 +6,7 @@ html {
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   /* First Background SVG */
@@ -125,6 +126,11 @@ p, a, li, blockquote, label {
 }
 .brand-logo-iei img{
   height: 75px;
+}
+
+.iei{
+  width: 5em;
+  height: auto;
 }
 
 
@@ -1004,8 +1010,16 @@ select.form-control:not([size]):not([multiple]) {
 
 }
 
-.partnership-logo span{
-  
+.partnership-logo span .iei-long{
+  height: 2.2em;
+  width: auto;
+}
+
+@media(max-width:767px){
+  .partnership-logo span .iei-long{
+    height: 1em;
+    width: auto;
+  }
 }
 
 .partnership-logo img{

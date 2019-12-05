@@ -416,7 +416,7 @@ button:hover {
 .white{
   color:#ffffff;
   text-align: center;
-  padding-top:80px;
+  padding-top:30px;
 }
 .section-title.white h3, .section-title.white p {
   color: #fff;
@@ -3806,4 +3806,13 @@ ul.pagination .active a {
   font-size: 20px;
   color: #fff;
   padding: 7px;
+}
+.star{
+  font-weight: lighter;
+}
+.note{
+  text-align: center;
+}
+.submissions-item{
+  font-family: Roboto;
 }

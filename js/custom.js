@@ -49,7 +49,7 @@
         //   $('html, body').animate({ scrollTop: 0 }, 'slow');
         //   return false;
         // });
-        
+
         // -----------------------------
         // Magnific Popup
         // -----------------------------
@@ -81,6 +81,7 @@
 
 })(jQuery);
 
+
 // $('.navbar-collapse a').click(function (e) {
 //     $('.navbar-collapse').collapse('toggle');
 //   });
@@ -98,3 +99,4 @@
 //         navMain.collapse('hide');
 //     });
 // });
+

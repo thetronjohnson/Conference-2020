@@ -80,3 +80,23 @@
     });
 
 })(jQuery);
+
+
+// $('.navbar-collapse a').click(function (e) {
+//     $('.navbar-collapse').collapse('toggle');
+//   });
+
+
+// $(function(){ 
+//     var navMain = $(".navbar-collapse");
+
+//     navMain.on("click", "a", null, function (e) {
+//         console.log(e);
+//         console.log(e.originalEvent.explicitOriginalTarget.hash)
+//         var location = e.originalEvent.explicitOriginalTarget.hash;
+//         console.log(typeof location)
+//         document.getElementById(location).scrollIntoView();
+//         navMain.collapse('hide');
+//     });
+// });
+

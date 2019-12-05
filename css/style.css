@@ -1161,6 +1161,11 @@ select.form-control:not([size]):not([multiple]) {
   font-size: 65px;
 }
 
+.banner .block .kochi-local-center{
+  font-size: 0.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 
 @media (max-width: 767px) {
   .banner .block h1 {

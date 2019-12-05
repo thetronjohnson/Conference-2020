@@ -70,7 +70,7 @@ p, a, li, blockquote, label {
   /* background-color: grey; */
   height: 100%;
   display: grid;
-  grid-template-columns: 1fr 3fr 3fr 0.5fr 3fr 3fr 0.5fr 3fr 3fr 1fr;
+  grid-template-columns: 1fr 3fr 3fr 0.5fr 3fr 3fr 1fr;
   align-items: center;
   background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
   color: white;
@@ -81,7 +81,7 @@ p, a, li, blockquote, label {
   color: white;
 }
 
-.brand-icmace{
+/* .brand-icmace{
   grid-column: 2/3;
   justify-self: end;
 }
@@ -92,20 +92,20 @@ p, a, li, blockquote, label {
   grid-column: 3/4;
   justify-self: center;
 
-}
-.brand-logo-icmace img{
+} */
+/* .brand-logo-icmace img{
   height: 75px;
   justify-self: center;
-}
+} */
 .brand-mace{
-  grid-column: 5/6;
+  grid-column: 2/3;
   justify-self: end;
 }
 .brand-mace h3{
 
 }
 .brand-logo-mace{
-  grid-column: 6/7;
+  grid-column: 3/4;
   justify-self: center;
 
 }
@@ -113,14 +113,14 @@ p, a, li, blockquote, label {
   height: 75px;
 }
 .brand-iei{
-  grid-column: 8/9;
+  grid-column: 5/6;
   justify-self: end;
 }
 .brand-iei h3{
 
 }
 .brand-logo-iei{
-  grid-column: 9/10;
+  grid-column: 6/7;
   justify-self: center;
 
 }

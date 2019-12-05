@@ -3816,3 +3816,9 @@ ul.pagination .active a {
 .submissions-item{
   font-family: Roboto;
 }
+.nearby{
+  text-align: justify;
+}
+.ieee{
+  color: #0069d9
+}

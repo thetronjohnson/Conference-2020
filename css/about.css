@@ -34,4 +34,6 @@
 
 }
 
-
+.image-container{
+  justify-content: end;
+}

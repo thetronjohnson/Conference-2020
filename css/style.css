@@ -3802,3 +3802,12 @@ ul.pagination .active a {
   color: #fff;
   padding: 7px;
 }
+.star{
+  font-weight: lighter;
+}
+.note{
+  text-align: center;
+}
+.submissions-item{
+  font-family: Roboto;
+}

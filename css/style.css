@@ -1397,8 +1397,9 @@ select.form-control:not([size]):not([multiple]) {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #3273DC;
-  opacity: .85;
+  /* background: #3273DC; */
+  background-color: #ffffff;
+  opacity: .35;
   transition: .3s ease;
 }
 

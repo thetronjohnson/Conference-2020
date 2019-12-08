@@ -1408,6 +1408,10 @@ select.form-control:not([size]):not([multiple]) {
   height: 270px;
 }
 
+.modal-header .modal-title{
+  margin: 0 auto;
+}
+
 .speakers .speaker-item .image .socials {
   position: absolute;
   top: 100%;

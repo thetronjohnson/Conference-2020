@@ -395,6 +395,10 @@ button:hover {
   background-position: center center;
 }
 
+#image2{
+  background-size: cover;
+}
+
 .section {
   padding: 30px 0;
 }

@@ -1384,10 +1384,15 @@ select.form-control:not([size]):not([multiple]) {
   position: relative;
   overflow: hidden;
 }
+.speakers .speaker-item{
+
+}
 
 @media (max-width: 480px) {
   .speakers .speaker-item .image img {
     width: 100% !important;
+    height: auto;
+    margin: 0 auto;
   }
 }
 
